@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Financial Planning and Analysis",
+      "description": "Learn about financial planning, budgeting, forecasting, and analysis techniques used in business.",
+      "image": "/courses/finance-planning.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Investment Fundamentals",
+      "description": "Understand the basics of investing, including stocks, bonds, mutual funds, and portfolio management.",
+      "image": "/courses/investment-fundamentals.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Corporate Finance Essentials",
+      "description": "Explore financial management topics such as capital budgeting, risk management, and corporate valuation.",
+      "image": "/courses/corporate-finance.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Financial Markets and Trading",
+      "description": "Gain insights into financial markets, trading strategies, technical analysis, and market trends.",
+      "image": "/courses/financial-markets.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Accounting Principles",
+      "description": "Learn the fundamentals of accounting, financial statements, bookkeeping, and accounting software.",
+      "image": "/courses/accounting.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Personal Finance Management",
+      "description": "Master personal finance skills including budgeting, savings, investments, and retirement planning.",
+      "image": "/courses/personal-finance.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Risk Management and Insurance",
+      "description": "Explore risk assessment, insurance products, hedging strategies, and risk mitigation techniques.",
+      "image": "/courses/risk-management.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Financial Modeling and Analysis",
+      "description": "Develop skills in financial modeling, scenario analysis, sensitivity testing, and financial statement analysis.",
+      "image": "/courses/financial-modeling.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Entrepreneurial Finance",
+      "description": "Learn about financing options for startups, venture capital, angel investing, and business valuation.",
+      "image": "/courses/entrepreneurial-finance.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Economics for Finance",
+      "description": "Understand economic principles, macroeconomic trends, monetary policy, and their impact on finance.",
+      "image": "/courses/economics-finance.jpg"
+    }
+  ]
+}
