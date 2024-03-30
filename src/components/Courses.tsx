@@ -8,14 +8,13 @@ import coursesData from "@/data/data.json";
 
 const courses = () => {
   return (
-    <div className="w-full h-[400vh] dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      <div className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+    <div className="w-full h-auto p-4">
+      <div className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-8xl">
         <h1>Courses</h1>
       </div>
-      <div className="flex flex-wrap max-w-5xl mx-8 gap-8">
+      <div className="flex flex-wrap max-w-5xl mx-auto gap-8">
         {coursesData.courses.map((courses) => (
-          <div key={courses.id} style={{ maxHeight: "500px" }}>
+          <div key={courses.id} style={{ maxHeight: "550px" }}>
             <CardContainer className="inter-var">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                 <CardItem
